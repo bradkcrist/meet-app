@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/bradkcrist/meet-app.git/static/css/main.f855e6bc.css",
+    "main.js": "/bradkcrist/meet-app.git/static/js/main.1e75891f.js",
+    "static/js/453.4a9980c6.chunk.js": "/bradkcrist/meet-app.git/static/js/453.4a9980c6.chunk.js",
+    "service-worker.js": "/bradkcrist/meet-app.git/service-worker.js",
+    "static/media/logo.svg": "/bradkcrist/meet-app.git/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
+    "index.html": "/bradkcrist/meet-app.git/index.html",
+    "main.f855e6bc.css.map": "/bradkcrist/meet-app.git/static/css/main.f855e6bc.css.map",
+    "main.1e75891f.js.map": "/bradkcrist/meet-app.git/static/js/main.1e75891f.js.map",
+    "453.4a9980c6.chunk.js.map": "/bradkcrist/meet-app.git/static/js/453.4a9980c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.1e75891f.js"
+  ]
+}
