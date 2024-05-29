@@ -1,3 +1,13 @@
+2: As a user I should be able to show/hide event so I can see all the details
+
+3: As a user I should be able to specify the number of events I have so I can manage them
+
+4: As a user I should be be able to use the event app offline so I can still manage and see errors in the offline app
+
+5: As a user I should be able to add a shortcut to the event app on my homescreen so I can get to it faster and easier.
+
+6: As a user I should be able to see a chart of all upcoming events in chart format so I can manage upcoming events in what cities easier
+
 Feature 2: Event Management
 
 Scenario: An event element is collapsed by default
