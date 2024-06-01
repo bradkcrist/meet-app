@@ -62,3 +62,6 @@ Scenario: Show a chart with the number of upcoming events in each city
 Given there are upcoming events
 When the user accesses the event details
 Then a chart displaying the number of events in each city is shown
+
+Serverless Functions Use:
+I will use servless functions for managing authetication, in my React app. The benefits of using servless include focusin on bussiness logic, automated scaling, microservice architecture and high availability. One other great thing is how fast they are to create and use.
