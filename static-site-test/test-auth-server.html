@@ -48,7 +48,7 @@
       const resultElement = document.getElementById('result');
       const resultLink = document.getElementById('authURL');
       // Replace this with your own endpoint
-      const getAuthURL = 'https://whv8xgtf43.execute-api.us-west-2.amazonaws.com/dev/api/get-auth-url';
+      const getAuthURL = ' https://8fok8ys4vb.execute-api.us-west-2.amazonaws.com/dev/api/get-auth-url';
 
       getAuthUrlButton.onclick = function () {
         fetch(getAuthURL)
@@ -70,7 +70,7 @@
       const codeValue = document.getElementById('code');
       const getAccessToken = document.getElementById('getToken');
       const accessTokenElement = document.getElementById('accessToken');
-      const getToken = 'https://whv8xgtf43.execute-api.us-west-2.amazonaws.com/dev/api/token';
+      const getToken = ' https://8fok8ys4vb.execute-api.us-west-2.amazonaws.com/dev/api/token';
 
       getAccessToken.onclick = function () {
         let code = codeValue.value;
@@ -92,29 +92,19 @@
       // -- STEP 3
       const getEvents = document.getElementById('getEvents');
       const events = document.getElementById('events');
-      const getCalendarEvents = 'https://whv8xgtf43.execute-api.us-west-2.amazonaws.com/dev/api/get-events';
+      const getCalendarEvents = 'https://8fok8ys4vb.execute-api.us-west-2.amazonaws.com/dev/api/get-events';
 
       getEvents.onclick = function () {
         const { access_token } = JSON.parse(accessTokenElement.innerText);
         const eventRequest = getCalendarEvents + '/' + access_token;
         fetch(eventRequest)
           .then(function (response) {
-            if (!response.ok) {
-              throw new Error('Network response was not ok');
-            }
             return response.json();
           })
           .then(function (json) {
-            events.innerText = JSON.stringify(json, 2);
-          })
-          .catch(function (error) {
-            // Handle any errors that occurred during the fetch operation
-            console.error('Fetch error:', error);
-            // Optionally, you can also update the UI to display an error message
-            events.innerText = 'An error occurred while fetching calendar events. Please try again later.';
+            events.innerText = JSON.stringify(json, null, 2);
           });
       };
-      // -- END OF STEP 3
     </script>
   </body>
 </html>
