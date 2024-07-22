@@ -13,7 +13,6 @@ const NumberOfEvents = ({ setCurrentNOE, setErrorAlert }) => {
     } else {
       infoText = '';
       setCurrentNOE(value);
-      console.log(setCurrentNOE);
     }
     setErrorAlert(infoText);
   };
