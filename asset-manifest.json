@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bradkcrist/meet-app.git/static/css/main.f855e6bc.css",
-    "main.js": "/bradkcrist/meet-app.git/static/js/main.30ac3f7a.js",
-    "static/js/453.4a9980c6.chunk.js": "/bradkcrist/meet-app.git/static/js/453.4a9980c6.chunk.js",
-    "service-worker.js": "/bradkcrist/meet-app.git/service-worker.js",
-    "index.html": "/bradkcrist/meet-app.git/index.html",
-    "main.f855e6bc.css.map": "/bradkcrist/meet-app.git/static/css/main.f855e6bc.css.map",
-    "main.30ac3f7a.js.map": "/bradkcrist/meet-app.git/static/js/main.30ac3f7a.js.map",
-    "453.4a9980c6.chunk.js.map": "/bradkcrist/meet-app.git/static/js/453.4a9980c6.chunk.js.map"
+    "main.css": "/meet-app/static/css/main.f855e6bc.css",
+    "main.js": "/meet-app/static/js/main.16f69917.js",
+    "static/js/453.4a9980c6.chunk.js": "/meet-app/static/js/453.4a9980c6.chunk.js",
+    "service-worker.js": "/meet-app/service-worker.js",
+    "index.html": "/meet-app/index.html",
+    "main.f855e6bc.css.map": "/meet-app/static/css/main.f855e6bc.css.map",
+    "main.16f69917.js.map": "/meet-app/static/js/main.16f69917.js.map",
+    "453.4a9980c6.chunk.js.map": "/meet-app/static/js/453.4a9980c6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.30ac3f7a.js"
+    "static/js/main.16f69917.js"
   ]
 }
